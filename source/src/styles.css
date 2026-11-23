@@ -153,3 +153,9 @@ main{overflow:hidden;isolation:isolate}
 /* v14 — keep guest fields inside the form; long text scrolls within fields. */
 .rsvp input,.rsvp textarea{resize:none;max-width:100%;box-sizing:border-box}
 .rsvp textarea{overflow:auto}
+/* v16 — Safari-safe fabric backgrounds and confirmed RSVP receipt. */
+.fabric-crop{background-repeat:no-repeat;background-color:var(--fabric-fallback,#e3d0ab)}
+.rsvp-receipt{margin:24px auto 0;text-align:center;padding:22px;background:#e9e8d6;border-radius:4px}
+.rsvp-receipt .form-status{margin:0 0 18px;min-height:0;font-size:18px;line-height:1.6}
+.rsvp-cat{display:block;width:min(100%,320px);height:auto;aspect-ratio:4/3;object-fit:cover;object-position:54% 52%;margin:auto;border-radius:4px}
+.rsvp .sending-note{font-size:14px;line-height:1.6;color:#53664c;margin:8px 0}

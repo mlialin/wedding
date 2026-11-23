@@ -40,3 +40,15 @@ Remove final «Это лишь идея…» sentence in flowers item; replace p
 
 ## v14 field sizing
 Disable manual resizing on all RSVP inputs/textareas. Text remains unrestricted; textarea overflow scrolls within its fixed rows. Retry Google Sheets deployment using authorized account flow; do not claim connection without roundtrip confirmation.
+
+## v15 photo frames
+User requests small light photo frames. Use warm light paper frames around hero (preserve arch and mobile viewport fit), running and closing photos; keep album's existing print frames, matching their paper color. No photo cropping or layout changes. Google connection and hosting are now handled by user independently; endpoint stays unset.
+
+## v16 hosted-site corrections (base v14)
+User chose v14 without photo frames; remove v15 frames. Use Safari-safe fabric backgrounds instead of clipped, absolutely positioned lazy images. Companions: question «Как зовут гостя?», placeholder «Напишите Имя и Фамилию гостя», implicit attendance yes with no attendance question. Confirmed success includes attached cat photograph cropped only with CSS, final exclamation. Reduce duplicate Sheets service calls while retaining lock, deduplication and confirmed acknowledgement. User reports live Google integration at https://ml.iiiii.info/; local endpoint still unknown; never overwrite their deployed integration with an empty endpoint. Need user's current source or /exec URL before a ready-to-upload rebuild. Certificate issue needs actual TLS evidence; browser currently reports ERR_HTTP2_PROTOCOL_ERROR, no confirmed certificate diagnosis.
+
+## v17 link preview copy
+Page title, Open Graph and Twitter title: «Приглашение на свадьбу — Михаил и Елизавета». Description for all previews: «Михаил и Елизавета приглашают вас на свадьбу. 5 января 2027 года, Новосибирск.» No final forever slogan. Live deployment is user-managed; supply metadata-only instructions to preserve their configured bundle.
+
+## v18 guest arrival
+Guest gathering is 15:30, January 5, 2027, Asia/Novosibirsk. Update schedule, countdown target and visible clock finish time together. Ceremony 16:00 and finish 22:00 unchanged.
